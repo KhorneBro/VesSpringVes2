@@ -16,7 +16,7 @@
 <%--?id=${userAttribute.id}--%>
 
 <%--@elvariable id="homeAttribute" type="com.example.VesSpringVes.entity.HomeEntity"--%>
-<c:url var="saveUrl" value="/editHome?id=${userId}"/>
+<c:url var="saveUrl" value="/editHome?id=${homeAttribute.id}"/>
 <form:form action="${saveUrl}" method="post" modelAttribute="homeAttribute">
 
     <div class="form-group">
